@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  background: #fff;
+  color: #111;
+}
+
+.container {
+  max-width: 720px;
+  padding: 4rem 2rem;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.subhead {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+p {
+  line-height: 1.6;
+  margin-bottom: 1.25rem;
+}
+
+hr {
+  margin: 3rem 0;
+}
+
+.boundary {
+  font-weight: bold;
+}
+
+.offer h2 {
+  margin-top: 3rem;
+}
+
+ul {
+  margin-left: 1.2rem;
+}
+
+.cta {
+  margin-top: 3rem;
+  font-weight: bold;
+}

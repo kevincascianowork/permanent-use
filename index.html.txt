@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Permanent Use</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <main class="container">
+    <h1>Permanent Use</h1>
+
+    <p class="subhead">
+      Custodial land design for people who don’t want to regret their first move.
+    </p>
+
+    <p>
+      Most land mistakes aren’t aesthetic.<br>
+      They’re structural, irreversible, and expensive.
+    </p>
+
+    <p>
+      Permanent Use exists to see second- and third-order consequences before anything is built—so the land remains coherent, durable, and usable long after initial intentions fade.
+    </p>
+
+    <hr>
+
+    <p class="boundary">
+      This is design-only work.<br>
+      Finite scope. No implementation. No education. No open-ended process.
+    </p>
+
+    <section class="offer">
+      <h2>The Permanent Use Plan</h2>
+
+      <p>
+        A closed-scope land design and decision document that resolves long-term use conflicts before money, labor, or sentiment are committed.
+      </p>
+
+      <ul>
+        <li><strong>Delivery:</strong> 14–21 days</li>
+        <li><strong>Format:</strong> Remote, design-only</li>
+        <li><strong>Intake:</strong> One recorded call (60–90 min)</li>
+      </ul>
+
+      <h3>Deliverables</h3>
+      <ul>
+        <li>Land-use structure</li>
+        <li>Constraint map</li>
+        <li>Phasing logic</li>
+        <li>Written tradeoff rationale</li>
+        <li>Final “do not cross” list</li>
+      </ul>
+
+      <h3>Explicit Exclusions</h3>
+      <ul>
+        <li>No planting plans</li>
+        <li>No species lists</li>
+        <li>No budgets</li>
+        <li>No coaching</li>
+        <li>No revisions beyond scope</li>
+        <li>No implementation support</li>
+      </ul>
+
+      <p class="cta">
+        Contact is intentional.<br>
+        Email only: <a href="mailto:youremail@domain.com">youremail@domain.com</a>
+      </p>
+    </section>
+  </main>
+
+</body>
+</html>
