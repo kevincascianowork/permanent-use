@@ -1,56 +1,101 @@
-body {
-  margin: 10;
-  padding: 10;
-  font-family: Inter, "system-ui", san-serif;
-  background: #fefefe;
-  color: #1a1a1a;
+:root{
+  --text:#141414;
+  --muted:#4a4a4a;
+  --rule:#e7e7e7;
 }
 
-h1, h2, h3 {
-  font-family: "Libre Baskerville", Georgia, serif;
-  letter-spacing: -0.02em;
+*{ box-sizing:border-box; }
+
+body{
+  margin:0;
+  padding:0;
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  color:var(--text);
+  background:#fff;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 }
 
-.container {
-  max-width: 680px;
+.container{
+  max-width: 720px;
+  margin: 0 auto;
   padding: 6rem 2rem;
 }
 
-h1 {
-  font-size: 3rem;
-  margin-bottom: 1rem;
+h1, h2, h3{
+  font-family: "Libre Baskerville", Georgia, serif;
+  letter-spacing: -0.02em;
+  line-height: 1.15;
 }
 
-.subhead {
-  font-size: 1.25rem;
-  margin-bottom: 2rem;
+h1{
+  font-size: clamp(2.6rem, 4vw, 3.4rem);
+  margin: 0 0 1rem 0;
 }
 
-p {
+.subhead{
+  font-size: 1.15rem;
+  color: var(--muted);
+  margin: 0 0 2.25rem 0;
   line-height: 1.6;
-  margin-bottom: 1.25rem;
 }
 
-hr {
+p{
+  font-size: 1.05rem;
+  line-height: 1.75;
+  margin: 0 0 1.35rem 0;
+}
+
+hr{
   border: none;
-  border-top: 1px solid #e6e6e6;
+  border-top: 1px solid var(--rule);
   margin: 4rem 0;
 }
 
-.boundary {
-  font-weight: bold;
+.boundary{
+  font-weight: 600;
+  letter-spacing: 0.01em;
 }
 
-.offer h2 {
+.offer{
+  margin-top: 3.25rem;
+}
+
+.offer h2{
+  margin: 0 0 1rem 0;
+}
+
+.offer h3{
+  margin: 2.25rem 0 0.75rem 0;
+  font-size: 1.05rem;
+}
+
+ul{
+  margin: 0.75rem 0 0 1.25rem;
+  padding: 0;
+}
+
+li{
+  margin: 0.5rem 0;
+  line-height: 1.6;
+}
+
+.exclusions{
+  opacity: 0.88;
+}
+
+a{
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+a:hover{
+  opacity: 0.8;
+}
+
+.cta{
   margin-top: 3rem;
+  font-weight: 600;
 }
-
-ul {
-  margin-left: 1.2rem;
-}
-
-.cta {
-  margin-top: 3rem;
-  font-weight: bold;
-}
-
