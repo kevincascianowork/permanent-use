@@ -104,3 +104,37 @@ a:hover{
   margin-top: 3rem;
   font-weight: 600;
 }
+
+img{
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.pagehead{
+  margin-bottom: 3rem;
+}
+
+.gallery{
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 1.25rem;
+}
+
+.gallery figure{
+  margin: 0;
+  grid-column: span 12;
+}
+
+.gallery img{
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* two columns on larger screens */
+@media (min-width: 900px){
+  .gallery figure{
+    grid-column: span 6;
+  }
+}
