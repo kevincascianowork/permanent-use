@@ -131,10 +131,3 @@ img{
   height: auto;
   border-radius: 10px;
 }
-
-/* two columns on larger screens */
-@media (min-width: 900px){
-  .gallery figure{
-    grid-column: span 6;
-  }
-}
