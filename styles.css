@@ -23,6 +23,7 @@ body{
 }
 
 .container{
+  width: 100%
   max-width: 720px;
   margin: 0 auto;
   padding: 6rem 2rem;
@@ -132,5 +133,11 @@ img{
   width: 100%;
   height: auto;
   border-radius: 10px;
+}
+
+@media (max-width: 600px){
+  .container{
+    padding: 3rem 1rem;
+  }
 }
 
