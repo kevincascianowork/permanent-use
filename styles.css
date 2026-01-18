@@ -1,5 +1,5 @@
 :root{
-  --bg:#ffffff;
+  --bg:#ede8d0;
   --text:#141414;
   --muted:#4a4a4a;
   --rule:#e8e8e8;
@@ -23,7 +23,7 @@ body{
 }
 
 .container{
-  width: 100%
+  width: 100%;
   max-width: 720px;
   margin: 0 auto;
   padding: 6rem 2rem;
@@ -140,6 +140,17 @@ img{
     padding: 3rem 1rem;
   }
 }
+
+/* Center the page content horizontally and vertically.
+   If you only want horizontal centering, remove the flex rules. */
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
 
 
 
