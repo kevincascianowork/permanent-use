@@ -162,7 +162,7 @@ body{
     --bg: #0b1220;
     --text: #e6eef6;
     --muted: #9aa6b2;
-    --rule: rgba(255,255,255,0.06);
+    --rule: rgba(255,255,255,0.33);
   }
 
   html, body{
@@ -182,6 +182,7 @@ body{
     border-radius: 10px;
   }
 }
+
 
 
 
