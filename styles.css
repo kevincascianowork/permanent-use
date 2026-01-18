@@ -160,7 +160,7 @@ body{
 @media (prefers-color-scheme: dark){
   :root{
     --bg: #0b1220;
-    --text: #e6eef6;
+    --text: #fff8e7;
     --muted: #9aa6b2;
     --rule: rgba(255,255,255,0.33);
   }
@@ -182,6 +182,7 @@ body{
     border-radius: 10px;
   }
 }
+
 
 
 
