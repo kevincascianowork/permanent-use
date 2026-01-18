@@ -2,7 +2,7 @@
   --bg:#ede8d0;
   --text:#141414;
   --muted:#4a4a4a;
-  --rule:#e8e8e8;
+  --rule:#4a4a4a;
 }
 
 *{ box-sizing:border-box; }
@@ -182,6 +182,7 @@ body{
     border-radius: 10px;
   }
 }
+
 
 
 
