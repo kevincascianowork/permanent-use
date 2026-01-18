@@ -161,7 +161,7 @@ body{
   :root{
     --bg: #0b1220;
     --text: #fff8e7;
-    --muted: #9aa6b2, 0.72;
+    --muted: #9aa6b2, 0.5;
     --rule: rgba(255,255,255,0.33);
   }
 
@@ -182,6 +182,7 @@ body{
     border-radius: 10px;
   }
 }
+
 
 
 
